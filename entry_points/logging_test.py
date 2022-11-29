@@ -9,7 +9,7 @@ logger = init_logging_and_get_logger(__name__)
 
 def run():
     test = "test"
-    logger.debug("About to run add")
+    logger.debug("OH NO EVERYTHONG CHAGED")
     logger.info("About to run add")
     logger.warning(f"About to run add {test}")
     add(2, 3)

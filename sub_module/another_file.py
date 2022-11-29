@@ -1,6 +1,7 @@
-from initialize_logging import get_logger
+from initialize_logging import init_logging_and_get_logger
 
-logger = get_logger(__name__)
+
+logger = init_logging_and_get_logger(__name__)
 
 
 def add(x, y):
